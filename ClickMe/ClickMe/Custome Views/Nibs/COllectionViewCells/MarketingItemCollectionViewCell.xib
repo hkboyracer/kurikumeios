@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MarketingItemCollectionViewCell" id="4mC-Kx-k28" customClass="MarketingItemCollectionViewCell" customModule="Kuriku_Me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="czV-Nt-ypA">
+                <rect key="frame" x="0.0" y="0.0" width="172" height="198"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="ieJ-If-LqF">
+                        <rect key="frame" x="0.0" y="0.0" width="172" height="135"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="135" id="R2z-UN-I5a"/>
+                            <constraint firstAttribute="width" constant="172" id="Zde-sE-fob"/>
+                        </constraints>
+                    </imageView>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Og8-GV-itk">
+                        <rect key="frame" x="0.0" y="135" width="172" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7,500円" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Rn-e5-tYe">
+                                <rect key="frame" x="0.0" y="4" width="54" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="NwS-ZQ-J5u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="スキンケアセット" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-ZV-g1c">
+                                <rect key="frame" x="0.0" y="25" width="172" height="11"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="11"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="230 いいね       500 ビュー" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kT6-H6-Xp1">
+                                <rect key="frame" x="0.0" y="42" width="172" height="8"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="8"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tZ3-ZV-g1c" firstAttribute="leading" secondItem="Og8-GV-itk" secondAttribute="leading" id="0Vo-GX-FgK"/>
+                            <constraint firstItem="4Rn-e5-tYe" firstAttribute="top" secondItem="Og8-GV-itk" secondAttribute="top" constant="4" id="KWe-vb-RdY"/>
+                            <constraint firstAttribute="trailing" secondItem="tZ3-ZV-g1c" secondAttribute="trailing" id="Yfu-rl-Nma"/>
+                            <constraint firstItem="4Rn-e5-tYe" firstAttribute="leading" secondItem="Og8-GV-itk" secondAttribute="leading" id="ZWI-Sg-ZEj"/>
+                            <constraint firstItem="kT6-H6-Xp1" firstAttribute="top" secondItem="tZ3-ZV-g1c" secondAttribute="bottom" constant="6" id="fJD-Sq-3SE"/>
+                            <constraint firstAttribute="trailing" secondItem="kT6-H6-Xp1" secondAttribute="trailing" id="ujd-Ra-gqu"/>
+                            <constraint firstItem="kT6-H6-Xp1" firstAttribute="leading" secondItem="Og8-GV-itk" secondAttribute="leading" id="vSJ-KX-oG0"/>
+                            <constraint firstItem="tZ3-ZV-g1c" firstAttribute="top" secondItem="4Rn-e5-tYe" secondAttribute="bottom" constant="6" id="zZl-M1-Qhv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Og8-GV-itk" secondAttribute="trailing" id="4nP-VY-wxk"/>
+                    <constraint firstItem="ieJ-If-LqF" firstAttribute="leading" secondItem="czV-Nt-ypA" secondAttribute="leading" id="5Zj-Di-GVk"/>
+                    <constraint firstAttribute="bottom" secondItem="Og8-GV-itk" secondAttribute="bottom" id="7Xk-uF-v6N"/>
+                    <constraint firstAttribute="trailing" secondItem="ieJ-If-LqF" secondAttribute="trailing" id="Cb6-8Q-77T"/>
+                    <constraint firstItem="ieJ-If-LqF" firstAttribute="top" secondItem="czV-Nt-ypA" secondAttribute="top" id="PCf-Qm-ObB"/>
+                    <constraint firstItem="Og8-GV-itk" firstAttribute="leading" secondItem="czV-Nt-ypA" secondAttribute="leading" id="ZeU-xh-YET"/>
+                    <constraint firstItem="Og8-GV-itk" firstAttribute="top" secondItem="ieJ-If-LqF" secondAttribute="bottom" id="cku-rS-HXA"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <size key="customSize" width="172" height="198"/>
+            <connections>
+                <outlet property="imageItem" destination="ieJ-If-LqF" id="utR-Ml-eDf"/>
+                <outlet property="lblDesc" destination="tZ3-ZV-g1c" id="3hp-TX-T3O"/>
+                <outlet property="lblLikes" destination="kT6-H6-Xp1" id="Tbn-FR-fsj"/>
+                <outlet property="lblPrice" destination="4Rn-e5-tYe" id="ZdK-R7-Ngz"/>
+                <outlet property="viewInfo" destination="Og8-GV-itk" id="0D4-sJ-KYO"/>
+                <outlet property="widthImage" destination="Zde-sE-fob" id="SSw-nZ-mM3"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="133"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="food" width="281.66665649414062" height="188"/>
+    </resources>
+</document>

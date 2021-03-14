@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainPostTableViewCell" rowHeight="352" id="DPH-ws-ACu" customClass="MainPostTableViewCell" customModule="Kuriku_Me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="350"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DPH-ws-ACu" id="4vV-hY-92q">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="350"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="TbJ-bC-gV1">
+                        <rect key="frame" x="24.5" y="0.0" width="282" height="188.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="TbJ-bC-gV1" secondAttribute="height" multiplier="281:188" id="3zT-Os-5gr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_user" translatesAutoresizingMaskIntoConstraints="NO" id="G4L-mC-sjG">
+                        <rect key="frame" x="24.5" y="204.5" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Bfg-tx-2U0"/>
+                            <constraint firstAttribute="width" constant="30" id="kJQ-mz-OQK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mu4-PW-Pk2">
+                        <rect key="frame" x="62.5" y="204.5" width="75" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="12"/>
+                        <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@kurikumetest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwo-OV-YEB">
+                        <rect key="frame" x="62.5" y="219.5" width="86.5" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020年 12月31日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8o-t4-dzd">
+                        <rect key="frame" x="203.5" y="204.5" width="103" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                        <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing post testing post Testing post testing post Testing post testing post" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QE1-Xn-P2K">
+                        <rect key="frame" x="24" y="250.5" width="283" height="75.5"/>
+                        <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QE1-Xn-P2K" secondAttribute="trailing" constant="24" id="9wK-dB-N0I"/>
+                    <constraint firstItem="jwo-OV-YEB" firstAttribute="top" secondItem="mu4-PW-Pk2" secondAttribute="bottom" constant="3" id="B3V-1t-6RL"/>
+                    <constraint firstItem="G4L-mC-sjG" firstAttribute="top" secondItem="TbJ-bC-gV1" secondAttribute="bottom" constant="16" id="GMZ-GK-Zxj"/>
+                    <constraint firstItem="jwo-OV-YEB" firstAttribute="leading" secondItem="mu4-PW-Pk2" secondAttribute="leading" id="IIb-LW-2X8"/>
+                    <constraint firstItem="TbJ-bC-gV1" firstAttribute="centerX" secondItem="4vV-hY-92q" secondAttribute="centerX" id="MDw-ee-1T4"/>
+                    <constraint firstItem="U8o-t4-dzd" firstAttribute="centerY" secondItem="mu4-PW-Pk2" secondAttribute="centerY" id="U9w-yN-agt"/>
+                    <constraint firstItem="mu4-PW-Pk2" firstAttribute="top" secondItem="G4L-mC-sjG" secondAttribute="top" id="XDN-gd-SS7"/>
+                    <constraint firstAttribute="bottom" secondItem="QE1-Xn-P2K" secondAttribute="bottom" constant="24" id="bfX-6B-6wv"/>
+                    <constraint firstItem="U8o-t4-dzd" firstAttribute="trailing" secondItem="TbJ-bC-gV1" secondAttribute="trailing" id="g6D-4U-61u"/>
+                    <constraint firstItem="QE1-Xn-P2K" firstAttribute="leading" secondItem="4vV-hY-92q" secondAttribute="leading" constant="24" id="gZz-p8-Psk"/>
+                    <constraint firstItem="TbJ-bC-gV1" firstAttribute="top" secondItem="4vV-hY-92q" secondAttribute="top" id="hGH-G8-H9A"/>
+                    <constraint firstItem="mu4-PW-Pk2" firstAttribute="leading" secondItem="G4L-mC-sjG" secondAttribute="trailing" constant="8" id="iHy-co-Tdh"/>
+                    <constraint firstItem="QE1-Xn-P2K" firstAttribute="top" secondItem="G4L-mC-sjG" secondAttribute="bottom" constant="16" id="mQl-j5-Ez6"/>
+                    <constraint firstItem="G4L-mC-sjG" firstAttribute="leading" secondItem="TbJ-bC-gV1" secondAttribute="leading" id="zhK-yw-4ej"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                        <real key="value" value="8"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgPost" destination="TbJ-bC-gV1" id="rF3-tu-M8q"/>
+                <outlet property="lblDate" destination="U8o-t4-dzd" id="Eyo-kb-Ss9"/>
+                <outlet property="lblDesc" destination="QE1-Xn-P2K" id="BgZ-ZB-1GL"/>
+                <outlet property="lblName" destination="mu4-PW-Pk2" id="jYq-Wa-Tg8"/>
+                <outlet property="lblTag" destination="jwo-OV-YEB" id="QFb-Xt-iKS"/>
+            </connections>
+            <point key="canvasLocation" x="77.536231884057983" y="184.15178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_user" width="31" height="31"/>
+        <image name="food" width="281.66665649414062" height="188"/>
+    </resources>
+</document>

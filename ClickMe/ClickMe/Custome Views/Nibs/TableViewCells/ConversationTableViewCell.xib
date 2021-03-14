@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConversationTableViewCell" id="mt8-1w-A8A" customClass="ConversationTableViewCell" customModule="Kuriku_Me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mt8-1w-A8A" id="Dhr-f8-6UJ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Su-Rw-emp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_user" translatesAutoresizingMaskIntoConstraints="NO" id="yR9-wr-niU">
+                                <rect key="frame" x="16" y="11.5" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="Gdx-XO-zBJ"/>
+                                    <constraint firstAttribute="height" constant="42" id="z3u-LW-DJc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                        <real key="value" value="21"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脱税ニート山田" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdW-xH-Cn9">
+                                <rect key="frame" x="68" y="19.5" width="69.5" height="10"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="10"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@datsuzeishitai77" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDB-A5-Z5l">
+                                <rect key="frame" x="145.5" y="19.5" width="88.5" height="10"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="10"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1日前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIN-ij-fC4">
+                                <rect key="frame" x="371" y="27.5" width="35" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Z9C-4i-J4m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="10"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest text message will be appeared here. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1J-Hd-mxW">
+                                <rect key="frame" x="68" y="35.5" width="295" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="URS-AI-EGv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JdW-xH-Cn9" firstAttribute="leading" secondItem="yR9-wr-niU" secondAttribute="trailing" constant="10" id="7hF-z0-bs0"/>
+                            <constraint firstAttribute="trailing" secondItem="pIN-ij-fC4" secondAttribute="trailing" constant="8" id="9JR-mX-CoP"/>
+                            <constraint firstItem="JdW-xH-Cn9" firstAttribute="centerY" secondItem="yR9-wr-niU" secondAttribute="centerY" constant="-8" id="Etd-FV-mwh"/>
+                            <constraint firstItem="pIN-ij-fC4" firstAttribute="leading" secondItem="e1J-Hd-mxW" secondAttribute="trailing" constant="8" id="GEf-B8-TSU"/>
+                            <constraint firstItem="yR9-wr-niU" firstAttribute="centerY" secondItem="9Su-Rw-emp" secondAttribute="centerY" id="LHB-uA-sMc"/>
+                            <constraint firstItem="e1J-Hd-mxW" firstAttribute="leading" secondItem="JdW-xH-Cn9" secondAttribute="leading" id="NtJ-Zc-eOO"/>
+                            <constraint firstItem="UDB-A5-Z5l" firstAttribute="leading" secondItem="JdW-xH-Cn9" secondAttribute="trailing" constant="8" id="QFL-ZS-cym"/>
+                            <constraint firstItem="yR9-wr-niU" firstAttribute="leading" secondItem="9Su-Rw-emp" secondAttribute="leading" constant="16" id="UhV-Hn-x95"/>
+                            <constraint firstItem="pIN-ij-fC4" firstAttribute="centerY" secondItem="9Su-Rw-emp" secondAttribute="centerY" id="bRO-TJ-LQm"/>
+                            <constraint firstItem="UDB-A5-Z5l" firstAttribute="centerY" secondItem="JdW-xH-Cn9" secondAttribute="centerY" id="fTM-4q-4uk"/>
+                            <constraint firstItem="e1J-Hd-mxW" firstAttribute="top" secondItem="JdW-xH-Cn9" secondAttribute="bottom" constant="6" id="lYr-ie-GU8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9Su-Rw-emp" firstAttribute="top" secondItem="Dhr-f8-6UJ" secondAttribute="top" id="7r0-Qr-VVM"/>
+                    <constraint firstAttribute="trailing" secondItem="9Su-Rw-emp" secondAttribute="trailing" id="IfW-6T-UAo"/>
+                    <constraint firstAttribute="bottom" secondItem="9Su-Rw-emp" secondAttribute="bottom" id="NQg-uY-35l"/>
+                    <constraint firstItem="9Su-Rw-emp" firstAttribute="leading" secondItem="Dhr-f8-6UJ" secondAttribute="leading" id="bW3-cq-mb6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="137.68115942028987" y="105.46875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_user" width="31" height="31"/>
+    </resources>
+</document>

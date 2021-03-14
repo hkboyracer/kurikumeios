@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InterestTableViewCell" rowHeight="58" id="Xgq-JK-S5w" customClass="InterestTableViewCell" customModule="ClickMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xgq-JK-S5w" id="2Sc-Kx-gOy">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yYv-f2-Sgp">
+                        <rect key="frame" x="16" y="8" width="42" height="42"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hash" translatesAutoresizingMaskIntoConstraints="NO" id="Sxw-Vf-8hM">
+                                <rect key="frame" x="0.0" y="0.0" width="42" height="42"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sxw-Vf-8hM" firstAttribute="top" secondItem="yYv-f2-Sgp" secondAttribute="top" id="EdH-UO-Pf6"/>
+                            <constraint firstItem="Sxw-Vf-8hM" firstAttribute="leading" secondItem="yYv-f2-Sgp" secondAttribute="leading" id="GRP-au-JiF"/>
+                            <constraint firstAttribute="bottom" secondItem="Sxw-Vf-8hM" secondAttribute="bottom" id="MkA-yw-wE6"/>
+                            <constraint firstAttribute="trailing" secondItem="Sxw-Vf-8hM" secondAttribute="trailing" id="ezG-r8-8gl"/>
+                            <constraint firstAttribute="height" constant="42" id="r1L-H3-ynN"/>
+                            <constraint firstAttribute="width" constant="42" id="xeW-UE-Wn9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                <real key="value" value="21"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColorV">
+                                <color key="value" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#kurikumeisfun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vP6-zF-boa">
+                        <rect key="frame" x="68" y="18" width="74" height="10"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#3,250 件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3i-Mj-99k">
+                        <rect key="frame" x="68" y="34" width="49" height="10"/>
+                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="10"/>
+                        <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KN2-7d-9FG">
+                        <rect key="frame" x="378" y="21" width="20" height="16.5"/>
+                        <color key="tintColor" red="0.12549019610000001" green="0.64705882349999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="IMV-Gx-55b"/>
+                            <constraint firstAttribute="height" constant="20" id="Ijl-UX-jQu"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vP6-zF-boa" firstAttribute="leading" secondItem="yYv-f2-Sgp" secondAttribute="trailing" constant="10" id="2mp-yO-j0r"/>
+                    <constraint firstAttribute="trailing" secondItem="KN2-7d-9FG" secondAttribute="trailing" constant="16" id="D46-GO-tyZ"/>
+                    <constraint firstItem="yYv-f2-Sgp" firstAttribute="centerY" secondItem="2Sc-Kx-gOy" secondAttribute="centerY" id="Da9-TB-uBU"/>
+                    <constraint firstItem="KN2-7d-9FG" firstAttribute="centerY" secondItem="2Sc-Kx-gOy" secondAttribute="centerY" id="HLp-hx-qnW"/>
+                    <constraint firstItem="j3i-Mj-99k" firstAttribute="top" secondItem="vP6-zF-boa" secondAttribute="bottom" constant="6" id="M6r-yP-jnS"/>
+                    <constraint firstItem="yYv-f2-Sgp" firstAttribute="leading" secondItem="2Sc-Kx-gOy" secondAttribute="leading" constant="16" id="SCa-ab-Hp3"/>
+                    <constraint firstItem="j3i-Mj-99k" firstAttribute="leading" secondItem="vP6-zF-boa" secondAttribute="leading" id="lLZ-nz-R9O"/>
+                    <constraint firstItem="vP6-zF-boa" firstAttribute="centerY" secondItem="Sxw-Vf-8hM" secondAttribute="centerY" constant="-6" id="t15-5d-U3y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgCheck" destination="KN2-7d-9FG" id="2YC-Rr-nhO"/>
+                <outlet property="lblLikes" destination="j3i-Mj-99k" id="LkK-i9-tpO"/>
+                <outlet property="lblTitle" destination="vP6-zF-boa" id="XHX-LK-bTS"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="hash" width="14" height="15"/>
+    </resources>
+</document>

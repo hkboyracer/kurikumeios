@@ -1,0 +1,24 @@
+PODS:
+  - CustomIOSAlertView (0.9.5)
+  - SideMenu (6.5.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - CustomIOSAlertView (~> 0.9.5)
+  - SideMenu
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - CustomIOSAlertView
+    - SideMenu
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 698c134f67f25a05e552f2eb5d230289476cd17c
+
+COCOAPODS: 1.10.1
